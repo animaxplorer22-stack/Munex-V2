@@ -1,14 +1,4 @@
 #!/usr/bin/env python3
-"""
-MICROCORE WIFI BRIDGE v11.0 — COMPLETE REWRITE
-FIXES:
-- ✅ EEPROM message handling (Arduino status)
-- ✅ Proper registration forwarding
-- ✅ Invalid JSON recovery
-- ✅ Better serial error handling
-- ✅ COM4 forced connection
-- ✅ Detailed debug logging
-"""
 
 import asyncio
 import serial

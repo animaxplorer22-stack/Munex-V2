@@ -1,20 +1,5 @@
 #!/usr/bin/env python3
-"""
-MICROCORE (MCX) NODE v30.0 — DECENTRALIZED MULTISIG BRIDGE
-================================================================================
-FIXES:
-- ✅ DECENTRALIZED MULTISIG BRIDGE (no single owner)
-- ✅ All bridge balances start at 0 (no fake tokens)
-- ✅ Real payment verification with TXID
-- ✅ Multisig threshold signatures (5 of 10)
-- ✅ No single point of failure
-- ✅ AVR DJB2 signature support
-- ✅ Real ECDSA secp256k1 signatures
-- ✅ Correct Gossip Discovery (no DNS)
-- ✅ Fixed Level System (1,000 MCX per level)
-- ✅ Correct Reward Distribution
-- ✅ All transactions require cryptographic authorization
-"""
+
 
 import asyncio
 import json

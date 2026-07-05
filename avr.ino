@@ -3,7 +3,6 @@
 #include <avr/pgmspace.h>
 #include <avr/power.h>
 
-// ==================== VERSION ====================
 #define VERSION "11.0-FIXED"
 #define MINER_TYPE "avr"
 
@@ -11,7 +10,6 @@
 const char USERNAME[] PROGMEM = "039";
 const char PRIVATE_KEY[] PROGMEM = "MCR_A87D9AF718F62C8D073FDDFE6BC0F039";
 
-// ==================== BAUD RATE ====================
 #define SERIAL_BAUD 115200
 
 // ==================== NETWORK CONSTANTS ====================
